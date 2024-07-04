@@ -1,0 +1,60 @@
+import Banner from
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.header{
+  height: 100vh;
+  background-image: url("../assets/img/Slider.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  height: 30px;
+  padding: 5px;
+}
+.headerInfo{
+  display: flex;
+  height: calc(100vh - 30px);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerText p {
+  color: #fff;
+  padding-top: 10px;
+}
+
+.headerInfo h1{
+  color: #fff;
+}
+.headerInfo span{
+  color: #FDB913;
+}
+.headerForm{
+  width: 400px;
+
+}
+
+.sectionCardInfo{
+  background-color: #EEE;
+  height: 220px;
+  margin-top: -110px;
+}
+
